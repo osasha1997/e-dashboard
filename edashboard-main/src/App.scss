@@ -1,0 +1,362 @@
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	margin-left: 600px;
+	margin-top:180px;
+
+	& #model{
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: #000000;
+	}
+
+	&  #text-IS{
+		font-family: Abhaya Libre;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: #000000;
+	}
+
+	& #comment{
+		font-family: Helvetica;
+		font-size: 20px;
+		color: #E46B67;
+	}
+
+	& #paragraph {
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: #000000;
+		width: 80%;	
+	}
+
+	& #line4{
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: #000000;
+	}
+
+	& #kays{
+		font-family: Helvetica;
+		font-style: normal;		
+		font-size: 20px;
+		color: #000000;	
+	}
+
+	& ol li{
+		color: #E46B67;
+	}
+
+	&  ol li p {
+		font-family: Abhaya Libre;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: #000000;
+	}
+
+	& .center-content{
+		width:80%;
+		height: 100px;
+		background: rgba(228, 107, 103, 0.66);
+		margin-top: 100px;
+		align-content: center;
+		text-align: center;
+
+		& .text-in-div{
+			position: absolute;
+			margin-top: 10px;
+			width: 50%;
+
+			& p {
+				position: relative;
+				font-family: Helvetica;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				color: #FFFFFF;
+			}
+		}
+	
+	} 
+
+	& ul li{
+		color: #E46B67;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	& ul li p{
+		font-family: Abhaya Libre;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: #000000;
+	}
+
+	& #papertext{
+		font-family: Abhaya Libre;
+		font-style: normal;
+		font-size: 20px;
+		color: #E36A66;
+		
+		& #paperclip{
+			color: #E46B67;
+			font-size: 30px;
+			font-weight: bold;
+			transform: rotate(50deg);
+		}		
+	}
+
+	& .comment-box {
+		width: 80%;
+		text-align: center;
+
+		& #fount-text{
+			align-items: center;
+			font-family: Abhaya Libre;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 35px;
+			line-height: 41px;
+			color: #000000;
+		}
+
+		& .comment-text{
+			margin-right: 6.78%;
+			margin-top: 5.76%;
+			height: 230px;
+			width: 100%;
+			background-color: #FFFFFF;
+			filter: drop-shadow(5px 5px 44px rgba(0, 0, 0, 0.161));
+
+			& .can-you-text{
+				position: relative;
+				top: 10px;
+				margin-top: 15px;
+				text-align: left;
+				margin-left: 45px;
+				margin-bottom: 20px;
+			}
+
+			& #text-area {
+				clear: both;
+				width: 99%;
+				border: 1px solid #f6f6f6;
+			}
+
+			#text-area:focus {
+				outline: 0;
+				border: 1px solid #000;
+			}
+			
+			& #submit-button{
+				cursor: pointer;
+				border: none;
+				padding: 10px;
+				border-radius: 5px 5px 5px 5px;
+				position: absolute;
+				left: 5.32%;
+				right: 70.68%;
+				top: 71.37%;
+				margin-top: 15px;
+				background: #E36A66;
+				font-family: Helvetica;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				color: #FFFFFF;
+			}
+		}
+
+		& .radio-button{
+			margin-top: 70px;
+			color: #E36A66;
+			display: flex;
+			justify-content: space-between;
+
+			& label{
+				font-family: Helvetica;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				line-height: 17px;
+				color: #707070;
+			}
+
+			& input{
+				color: #E36A66;
+			}
+		}
+	}
+
+
+	& .article-action {
+		margin-top: 120px;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		height: 100px;
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+
+		& .pre{
+			margin-top: 30px;
+			& i {
+				color: #E36A66;
+				font-size: 35px;
+				font-weight: bold;
+			}
+
+			& p { 
+				color: #E36A66;
+				margin-left: 50px;
+				position: absolute;
+				margin-top: -30px;
+			}
+		}
+
+		& .next{
+			margin-top: 30px;
+
+			& i {
+				color: #E36A66;
+				font-size: 35px;
+				font-weight: bold;
+			}
+
+			& p{
+				color: #E36A66;
+				position: absolute;
+				margin-left: -40px;
+				margin-top: 10px;
+			}	
+		}		
+	}	
+	
+	& .post-comment-box {
+		height: 200px;
+		width: 80%;
+		margin-bottom: 100px;
+		background-color: #FFFFFF;
+		filter: drop-shadow(5px 5px 44px rgba(0, 0, 0, 0.161));
+
+		& .comment-profile{
+			display: flex;
+			margin-top: -20px;
+
+			& .AB{
+                margin-top: 27px;
+                color: #000000;
+                font-family: Abhaya Libre;
+                font-size: 20px;
+                font-weight: bold;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                margin-right: 10px;
+            }
+            
+            & .ABicon{
+                margin-top: 20px;
+                margin-right: 10px;
+                margin-left: 20px;
+                background-color:#FF7D7D;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                text-align: center;
+                font-family: Abhaya Libre;
+                font-size: 20px;
+                font-weight: bold;
+                color: #FFFFFF;
+                
+                &  p {
+                    margin-top: 5px;
+                }        
+            }
+		}
+
+		& .comment-checkbox{
+			margin-left: 20px;
+			margin-top: 5px;
+			& input {
+				width: 26px;
+				height: 26px;
+				border: none;
+				border-radius: 1px;
+			}
+
+			& label{
+				margin-top: -5px;
+				font-family: Helvetica;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				line-height: 17px;
+				color: #707070;
+			}
+		}
+
+		& .post-comment-icon{
+			display: flex;
+			margin-left: 20px;
+
+			
+			& .vl {
+				border-left: 1px solid #ccc;
+				height: 200px;
+				position: absolute;
+				margin-left: 75%; 
+			}
+
+			& h1{
+				font-family: Abhaya Libre;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 35px;
+				line-height: 41px;
+			
+				color: #000000;
+			
+			}
+
+			& .Attach-file{
+				position: absolute;
+				margin-left: 50%;
+				margin-top: 20px;
+
+				& i {
+					font-size: 20px;
+				}
+
+				& p {
+					font-family: Helvetica;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 20px;
+					line-height: 23px;
+					color: #E36A66;
+					margin-left: 35px;
+				}
+			}
+
+			& i{
+				font-size: 40px;
+				margin-top: 15px;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+ 

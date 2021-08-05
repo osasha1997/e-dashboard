@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url('../img/bkpg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.login-wrapper {
+    box-shadow: 6px 6px 17px 6px rgba(0, 0, 0, 0.08);
+
+    background-color: #FFF;
+    padding: 50px 50px 20px 50px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login-wrapper img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.login-wrapper input {
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #FF7D7D;
+}
+
+.login-wrapper input:focus {
+    outline: 0;    
+}
+
+.login-wrapper button {
+    background-color: #FF7D7D;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.login-wrapper a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}

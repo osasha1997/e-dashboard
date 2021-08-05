@@ -1,0 +1,100 @@
+.left-second-side{
+	position: fixed;
+	width:auto;
+	height: 100vh;
+	margin-top: 3px;
+	left: 0px;
+	top: 80px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	z-index: 100;
+
+	& .lef-side{
+		position: absolute;
+		width: 96px;
+		height: 4013px;
+		left: 0px;
+		top: 0px;
+		background: linear-gradient(177.98deg, #FF7D7D 21.84%, rgba(255, 153, 153, 0.75) 118.83%);
+
+		& #close{
+			margin-top: 25px;
+			margin-left: 22px;
+			font-size: 40px;
+			color: #FFFFFF;
+		}
+
+		& i{
+			margin-left: 22px;
+			font-size: 40px;
+			color: #FFFFFF;
+			margin-top: 25px;
+		}
+	}
+
+	& .menu{
+		display: block;
+
+		& .RemoteManager{
+			display: block;
+			position: absolute;
+			margin-left: 120px;
+			margin-top: -80px;
+			font-family: Abhaya Libre;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 24px;
+			text-align: justify;
+			color: #000000;
+		}
+		
+		& .menu1{
+			width: 368px;
+			height: 80px;
+			margin-top: 100px;
+			margin-left: 90px;
+			background: #EFEFEF; 
+
+			& p {
+				position: absolute;
+				width: 225px;
+				height: 62px;
+				margin-top: 20px;
+				margin-left:20px;
+				font-family: Helvetica;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				line-height: 156.1%;
+				text-align: justify;
+				color: #000000;
+			}	
+			
+			
+			& #down-arrow {
+				position: absolute;
+				color: #000000;
+				font-size: 30px;
+				margin-top: 25px;
+				font-weight: bold;
+				margin-left: 300px;
+			}
+		}
+
+		& .inner-menu{
+			margin-left: 140px;
+			display: none;
+			
+			& li{
+				padding: 10px;
+				font-family: Helvetica;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 21px;
+				color: #707070;
+			}
+		}
+	}
+}
